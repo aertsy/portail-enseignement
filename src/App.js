@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
+  <>
+    <Menu />
+    <h1>Accueil</h1>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <p className="texteAccueil">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nam, corrupti ipsa eius unde illo porro. Numquam ducimus laboriosam excepturi.</p>
     </div>
+  </>
   );
 }
 
